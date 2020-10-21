@@ -31,3 +31,6 @@ nav a:visited, a:link {
     background-color: cornflowerblue;
     color: #f2f2f2;
 }
+* {
+    box-sizing: border-box;
+}
