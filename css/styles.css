@@ -68,3 +68,15 @@ footer p {
     text-align: center;
     margin-top: 10px;
 }
+.searchBar {
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.form-control {
+    width: 80%;
+    border-radius: 10px;
+}
+.messAge {
+    padding-top: 20px;
+}
