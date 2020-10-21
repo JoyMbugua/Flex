@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="reg.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="flex">
+    <h1>Student Registration Form</h1>
+    <p>Fill out the form carefully for registration</p>
+    
+    <form class="form">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+
+        <label for="mname">Middle name</label>
+        <input type="text" id="mname" name="mname">
+
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" name="uname">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="Password">Password:</label>
+        <input type="text" id="Password" name="Password"><br><br>
+        <label for="confirm Password">Confirm Password:</label>
+        <input type="text" id="confirm Password" name="confirm Password">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+        <label for="phone number">Phone number:</label>
+        <input type="text" id="phone number" name="phone number">
+         
+        
+        <h2>Date of birth</h2>
+          <input type="date" id="date" name="date" required></br><br>
+          <label for="gender">GENDER:</label>
+          <select name="gender" id="gender" required>
+            <option></option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+          <br><br>
+          <label for="courses">Courses</label>
+          <select class="form-dropdown" id="input_46" name="q46_courses" style="width:310px" data-component="dropdown" aria-labelledby="label_46">
+            <option value=""> Please Select </option>
+            <option value="Technology"> Technology</option>
+            <option value="Mathematics"> Mathematics </option>
+            <option value="Science"> Science </option>
+            <option value="Economics"> Economics </option>
+            <option value="Engeering"> Engeering </option>
+
+          </select>
+          <br><br>
+        
+          <li class="form-line" data-type="control_textarea" id="id_45">
+            <label class="form-label form-label-top form-label-auto" id="label_45" for="input_45"> Additional Comments </label>
+            <div id="cid_45" class="form-input-wide" data-layout="full">
+              <textarea id="input_45" class="form-textarea" name="q45_clickTo45" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_45"></textarea>
+            </div>
+          </li>
+
+          <input type="submit" class="btn-btn" onclick="sent()"/>
+  </form>
+</div>
+</body>
+</html>

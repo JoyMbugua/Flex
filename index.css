@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+    text-emphasis-color: blue;
+}
+input{
+    box-sizing: border-box;
+    padding: 10px;
+    padding-block-end: inherit;
+
+}
+h1{
+    text-align: center;
+    color: lawngreen;
+}   
+
+
+  

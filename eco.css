@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+p{
+    text-size-adjust: 35px;
+}
+body{
+    background-image: cover;
+    height: 600px;
+    width: 1600px;
+    background-color: aqua;
+    overflow-x: hidden;
+    text-size-adjust: 35px;
+}
