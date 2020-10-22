@@ -23,13 +23,10 @@ tr:nth-child(even) {
 
 footer {
     width: 100%;
-    min-height: 100px;
     background-color: #000000;
     color: #f2f2f2;
-    bottom: 0%;
     text-align: center;
     font-size: larger;
-    padding: 50px;
 }
 h1 {
     font-size: 100px;
