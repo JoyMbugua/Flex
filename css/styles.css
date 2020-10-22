@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    font-size: large;
+    font-size: larger;
 }
 td,th {
     border: 1px solid #dddddd;
@@ -19,7 +19,7 @@ td,th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-<<<<<<< HEAD
+
 footer {
     width: 100%;
     min-height: 100px;
@@ -36,21 +36,13 @@ h1 {
 }
 p {font-size: large;
 }
-=======
 
 .trackName {
     font-size: 15px;
     font-weight: bolder;
    
 }
-h1 {
-    text-align: center;
-    color: #000;
-}
-p {
-    text-align: justify;
-    color: #000;
-}
+
 .footer {
     text-align: left;
     width: 100%;
@@ -59,4 +51,16 @@ p {
     color: #f2f2f2;
     bottom: 0;
     }
->>>>>>> 852e79a3bae3dc8320f3f5a540de76c7d7c6d870
+.searchBar {
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.form-control {
+    width: 80%;
+    border-radius: 10px;
+}
+.messAge {
+    padding-top: 20px;
+}
+
