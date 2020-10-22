@@ -33,6 +33,7 @@ body{
 }
 #showcas p{
     font-size: 20px;
+    text-decoration: crimson;
 }
 #showcase .button{
     font-size: 18px;
