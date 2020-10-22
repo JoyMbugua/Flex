@@ -36,6 +36,8 @@ nav a:visited, a:link {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+
+    font-size: larger;
 }
 td,th {
     border: 1px solid #dddddd;
@@ -45,6 +47,22 @@ td,th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #000000;
+    color: #f2f2f2;
+    bottom: 0%;
+    text-align: center;
+    font-size: larger;
+}
+h1 {
+    font-size: large;
+    text-align: center;
+    font-style: inherit;
+}
+p {font-size: large;
 .topnav-right {
     float: right;
 }
@@ -53,6 +71,9 @@ tr:nth-child(even) {
     font-weight: bolder;
    
 }
+
+.footer {
+    text-align: left;
 footer {
     width: 100%;
     min-height: 200px;
@@ -92,5 +113,7 @@ footer p {
 }
 .messAge {
     padding-top: 20px;
+}
+
     text-align: center;
 }
