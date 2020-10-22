@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        nav a:visited, a:link {
+    text-decoration: none;
+    list-style: none;  
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: cornflowerblue;
+    color: #f2f2f2;
+}
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="../index.html">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Track Your Progress</a></li>
+                <li><a href="../login/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="to-do-app" class="to-do-list">
+            <h1>My notes</h1>
+            <i id="clear-list" class="fa fa-trash-o" aria-hidden="true" title="Clear All"></i>
+            <span id="title-date" class="title-date">October 21, 2020</span>
+            <input type="text" id="task" placeholder="Write something...">
+            <button id="add-task">+</button>
+
+            <div class="tasker-container">
+                <ul id="tasks-ul">
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="add-task-button">+</div>
+            <div id="task-container" class="task-container">
+                <div id="error-msg" class="error-msg">Has to be atleast 1 letter!</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
